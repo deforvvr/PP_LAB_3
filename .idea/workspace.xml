@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f321b4f3-d876-463f-8218-d641e2040e14" name="Changes" comment="add game and snake logic" />
+    <list default="true" id="f321b4f3-d876-463f-8218-d641e2040e14" name="Changes" comment="add rendering logic">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770893976654</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add rendering logic">
+      <option name="closed" value="true" />
+      <created>1770896091957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770896091957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +126,7 @@
     <MESSAGE value="add cfg file" />
     <MESSAGE value="add ui" />
     <MESSAGE value="add game and snake logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="add game and snake logic" />
+    <MESSAGE value="add rendering logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rendering logic" />
   </component>
 </project>

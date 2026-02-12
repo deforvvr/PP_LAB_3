@@ -55,6 +55,8 @@ class SnakeGame:
         self.root.bind("<Escape>", lambda _e: self.root.destroy())
         self.root.bind("<space>", self._safe(lambda _e: self.toggle_pause()))
         self.canvas.bind("<Configure>", self._safe(self._on_canvas_resize))
+        self.root.bind("<r>", self._safe(lambda _e: self.new_game()))
+        self.root.bind("<R>", self._safe(lambda _e: self.new_game()))
 
     def _handle_callback_exception(self, exc, val, tb) -> None:
         messagebox.showerror("Ошибка", f"{exc.__name__}: {val}")
